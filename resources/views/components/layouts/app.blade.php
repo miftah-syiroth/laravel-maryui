@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="abyss">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="light">
 
 <head>
   <meta charset="utf-8">
@@ -26,6 +26,7 @@
 
     {{-- Right side actions --}}
     <x-slot:actions>
+      <x-theme-toggle class="btn btn-circle btn-ghost" darkTheme="abyss" lightTheme="light" />
       <x-button label="Messages" icon="o-envelope" link="###" class="btn-ghost btn-sm" responsive />
       <x-button label="Notifications" icon="o-bell" link="###" class="btn-ghost btn-sm" responsive />
     </x-slot:actions>
