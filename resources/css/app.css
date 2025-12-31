@@ -11,6 +11,12 @@
         "Noto Color Emoji";
 }
 
+/* livewire powergrid */
+@source '../../app/Livewire/*Table.php';
+@source '../../app/Livewire/**/*Table.php';
+@source '../../vendor/power-components/livewire-powergrid/src/Themes/DaisyUI.php';
+@source '../../vendor/power-components/livewire-powergrid/resources/views/**/*.php';
+
 /**
     The lines above are intact.
     The lines below were added by maryUI installer.

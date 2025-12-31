@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="cupcake">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" data-theme="abyss">
 
 <head>
   <meta charset="utf-8">
@@ -12,7 +12,6 @@
 
 <body class="font-sans antialiased">
 
-  {{-- The navbar with `sticky` and `full-width` --}}
   <x-nav sticky full-width>
 
     <x-slot:brand>
